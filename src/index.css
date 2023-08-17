@@ -12,25 +12,20 @@ code {
     monospace;
 }
 button {
-  position: fixed;
+  position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
   cursor: pointer;
 }
 .chatbox {
-  width: 350px;
-  height: 475px;
+  width: 302px;
+  height: 425px;
   position: fixed;
   bottom: 60px;
   right: 20px;
   background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 5px;
   display: none;
   transition: transform 0.3s ease-in-out;
 }
